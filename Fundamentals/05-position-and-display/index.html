@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Position & Display</title>
+</head>
+<body class="p-20">
+
+    <h1 class="mb-5 font-mono font-bold text-2xl">"Position"</h1>
+    <div class="relative bg-teal-300 p-5 w-96 h-105">
+        <p>Relative</p>
+        <div class="absolute bottom-0 right-0 bg-pink-500 p-5 px-10">
+            <p>Absolute</p>
+        </div>
+    </div>
+    <br><hr><br>
+
+    <div class="relative bg-teal-300 p-5 w-96 h-105">
+        <p>Relative</p>
+        <div class="absolute top-20 left-0 bg-pink-500 p-5 px-10">
+            <p>Absolute</p>
+        </div>
+    </div>
+    <br><hr><br>
+
+     <div class="relative bg-teal-300 p-5 w-96 h-105">
+        <p>Relative</p>
+        <div class="absolute top-0 right-0 bg-pink-500 p-5 px-10">
+            <p>Absolute</p>
+        </div>
+    </div>
+    <br><hr><br>
+
+    <div class="relative bg-teal-300 p-5 w-96 h-105">
+        <p>Relative</p>
+        <div class="absolute bottom-0 left-0 bg-pink-500 p-5 px-10">
+            <p>Absolute</p>
+        </div>
+    </div>
+    <br><hr><br>
+
+    <!-- Display -->
+
+<span class="inline-grid grid-cols-3 gap-4">
+  <span class="bg-sky-500 w-24 h-12 font-bold text-white p-3 pl-10">01</span>
+  <span class="bg-sky-500 w-24 h-12 font-bold text-white p-3 pl-10">02</span>
+  <span class="bg-sky-500 w-24 h-12 font-bold text-white p-3 pl-10">03</span>
+  <span class="bg-sky-500 w-24 h-12 font-bold text-white p-3 pl-10">04</span>
+  <span class="bg-sky-500 w-24 h-12 font-bold text-white p-3 pl-10">05</span>
+  <span class="bg-sky-500 w-24 h-12 font-bold text-white p-3 pl-10">06</span>
+</span>
+<span class="inline-grid grid-cols-3 gap-4">
+  <span class="bg-pink-500 w-24 h-12 font-bold text-white p-3 pl-10">01</span>
+  <span class="bg-pink-500 w-24 h-12 font-bold text-white p-3 pl-10">02</span>
+  <span class="bg-pink-500 w-24 h-12 font-bold text-white p-3 pl-10">03</span>
+  <span class="bg-pink-500 w-24 h-12 font-bold text-white p-3 pl-10">04</span>
+  <span class="bg-pink-500 w-24 h-12 font-bold text-white p-3 pl-10">05</span>
+  <span class="bg-pink-500 w-24 h-12 font-bold text-white p-3 pl-10">06</span>
+</span>
+<br><hr class="mt-5"><br>
+
+<h1 class="font-bold font-mono text-2xl">Display</h1>
+<div class="bg-indigo-400 p-10 m-10 w-[600px]">
+    <span class="bg-orange-500 inline text-white">01. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, enim!</span>
+    <span class="inline-block bg-lime-500 text-white">02. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, enim!</span>
+    <span class="block bg-red-500 text-white">03. This is a block level Elemewnt and will move to its own line</span>
+    <span class="hidden bg-red-500 text-white">03. This is a block level Elemewnt and will move to its own line</span>
+</div>
+    
+</body>
+</html>
