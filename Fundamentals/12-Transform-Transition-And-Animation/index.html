@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Transform Transition And Animation</title>
+</head>
+<body class="p-20">
+    
+    <!-- 01. Without Transition (Simple Hover) -->
+     <h1 class="font-bold font-mono text-2xl">01. Simple Hover</h1>
+    <button class="m-5 p-3 w-32 h-12 text-white font-bold bg-sky-500 hover:bg-sky-700 rounded-2xl cursor-pointer">Click Me</button>
+    <br><hr><br>
+
+    <!-- 02. Transition -->
+     <h1 class="font-bold font-mono text-2xl">02. Transition</h1>
+     <button class="m-7 bg-blue-500 p-5 text-white font-bold hover:bg-teal-500 transition duration-300 ease-in-out delay-150 cursor-pointer">With Transition</button>
+    <br><hr><br>
+
+     <!-- 03. Transformation -->
+     <h1 class="font-bold font-mono text-2xl">03. Transformation</h1>
+      <button class="m-7 p-5 ml-5 bg-blue-500 transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500 text-white font-bold">Transformation</button>
+      <br><hr><br>
+
+      <!-- 04. Animation -->
+     <h1 class="font-bold font-mono text-2xl">04. Animations</h1>
+    <div class="flex">
+      <div class="bg-teal-500 text-white p-20 m-20 w-20 h-20 font-bold animate-spin">Spin</div>
+      <div class="bg-teal-500 text-white p-20 m-20 w-20 h-20 font-bold animate-ping">Ping</div>
+      <div class="bg-teal-500 text-white p-20 m-20 w-20 h-20 font-bold animate-bounce">Bounce</div>
+      <div class="bg-teal-500 text-white p-20 m-20 w-20 h-20 font-bold animate-pulse">Pulse</div>
+    </div>
+    <br><hr><br>
+
+</body>
+</html>
