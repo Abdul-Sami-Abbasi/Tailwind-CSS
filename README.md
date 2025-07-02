@@ -32,15 +32,15 @@ These projects demonstrate practical implementations using Tailwind CSS:
 
 ### 🔷 01 - Branding Site  
 A clean branding-focused landing page.  
-🔗 [View Live](https://your-branding-site-link.com)
+🔗 [View Live](https://abdul-sami-abbasi.github.io/Tailwind-CSS/Projects/01-Branding-Site/src/)
 
 ### 🏢 02 - Web Agency  
 A modern, responsive web agency website.  
-🔗 [View Live](https://your-web-agency-link.com)
+🔗 [View Live](https://abdul-sami-abbasi.github.io/Tailwind-CSS/Projects/02-Web-Agency/)
 
 ### 📸 03 - Photography Portfolio  
 A portfolio site to showcase photography work.  
-🔗 [View Live](https://your-photography-site-link.com)
+🔗 [View Live](https://abdul-sami-abbasi.github.io/Tailwind-CSS/Projects/03-Photography/)
 
 ---
 
